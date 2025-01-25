@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Card from "./Card";
 
 const data = [
-  { title: "Pankaj", content: "Pankaj is good man" },
-  { title: "Kittu", content: "Kittu is good Girl" },
+  { title: "Accpordian 1", content: "This is accordian 1" },
+  { title: "Accpordian 2", content: "This is accordian 2" },
 ];
 
 function Accordian() {
@@ -13,8 +13,8 @@ function Accordian() {
     setIsOpen(ind);
   };
   return (
-    <div>
-      <h1>Accordian</h1>
+    <div className="w-80 m-auto mt-20">
+      <h1>Please click on Accordian</h1>
       {data?.map((item, index) => (
         <Card
           data={item}

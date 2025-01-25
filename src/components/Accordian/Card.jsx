@@ -2,14 +2,14 @@ import React from "react";
 
 function Card({ data, handleClick, isOpen, index }) {
   return (
-    <div style={{ width: "100%", border: "1px solid black" }}>
+    <div className="border border-4-b-gray-400">
       <div
         onClick={() => handleClick(index)}
-        style={{ backgroundColor: "lightgrey" }}
+        className="bg-green-400 p-2"
       >
         {data?.title}
       </div>
-      {isOpen && <div>{data?.content}</div>}
+      {isOpen && <div className="min-h-20 text-sm">{data?.content}</div>}
     </div>
   );
 }

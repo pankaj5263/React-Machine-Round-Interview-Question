@@ -1,13 +1,12 @@
 import React from 'react';
-import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll';
-import Accordian from './components/Accordian/Accordian';
+import { RouterProvider } from 'react-router-dom';
+import router from "./router"
+
 function App() {
 
   return (
     <>
-      <h1>Infinit scrolling</h1>
-      {/* <InfiniteScroll/> */}
-      <Accordian/>
+      <RouterProvider router={router}/>
     </>
   )
 }
