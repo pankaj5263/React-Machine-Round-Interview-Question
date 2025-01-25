@@ -5,6 +5,7 @@ const dropDownList = [
   { name: "Accordian", path: "accordian" },
   { name: "Popover", path: "popover" },
   { name: "Star Rating", path: "star-rating" },
+  { name: "Tabs", path: "tabs" },
   { name: "Infinite-Scroll-page", path: "infinite-scrolling" },
 ];
 
