@@ -8,7 +8,7 @@ function DropDown({dropDownList}) {
     const path = evt.target.value && evt.target.value;
     navigate(path);
   }
-  const options = dropDownList?.map(item => <ListItem item={item}/>)
+  const options = dropDownList?.map((item,i) => <ListItem key={i} item={item}/>)
   return (
     <select onChange={handleChange}>
         <option disabled >Select Page</option>

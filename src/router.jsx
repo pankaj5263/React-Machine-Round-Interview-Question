@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import Home from "./Home";
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll";
 import Accordian from "./components/Accordian/Accordian";
+import Popover from "./components/Popover/PopoverButton";
 
 const router = createBrowserRouter([
     {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
         {
             path: "/accordian",
             element: <Accordian />,
+        },
+        {
+            path: "/popover",
+            element: <Popover />,
         },
         {
             path: "/infinite-scrolling",
