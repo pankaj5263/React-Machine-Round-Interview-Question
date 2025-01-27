@@ -7,6 +7,7 @@ import Popover from "./components/Popover/PopoverButton";
 import StarRating from "./components/StarRating/StarRating";
 import TabsComponent from "./components/Tabs/TabsComponent";
 import ShowToast from "./components/Toast/ShowToast";
+import ShowProgressBar from "./components/ProgressBar/ShowProgressBar";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/toast",
         element: <ShowToast />,
+      },
+      {
+        path: "/progress-bar",
+        element: <ShowProgressBar count={5} />,
       },
       {
         path: "/infinite-scrolling",
