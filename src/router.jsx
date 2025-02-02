@@ -8,6 +8,7 @@ import StarRating from "./components/StarRating/StarRating";
 import TabsComponent from "./components/Tabs/TabsComponent";
 import ShowToast from "./components/Toast/ShowToast";
 import ShowProgressBar from "./components/ProgressBar/ShowProgressBar";
+import Form from "./components/Form/Form";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/progress-bar",
         element: <ShowProgressBar count={5} />,
+      },
+      {
+        path: "/form-handle",
+        element: <Form />,
       },
       {
         path: "/infinite-scrolling",

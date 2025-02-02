@@ -19,7 +19,7 @@ function ShowProgressBar({count}) {
     <div className='flex justify-center mt-10'>
       <div className='flex flex-col gap-5'>
       <div>ShowProgressBar</div>
-      {progressBarList.map((_, index)=><ProgressBar index={index} handleProgressBar ={(id)=>{handleProgressBar(id)}}/>)}
+      {progressBarList.map((_, index)=><ProgressBar key={index} index={index} handleProgressBar ={(id)=>{handleProgressBar(id)}}/>)}
       </div>
       
     </div>
