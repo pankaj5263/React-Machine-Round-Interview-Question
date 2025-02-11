@@ -9,6 +9,10 @@ import TabsComponent from "./components/Tabs/TabsComponent";
 import ShowToast from "./components/Toast/ShowToast";
 import ShowProgressBar from "./components/ProgressBar/ShowProgressBar";
 import Form from "./components/Form/Form";
+import MultiSelect from "./components/MultiSelect/MultiSelect";
+import Autocomplete from "./components/Autocomplete/Autocomplete";
+import TreeView from "./components/TreeView/TreeView";
+import StepupForm from "./components/StepupForm/StepupForm";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +50,22 @@ const router = createBrowserRouter([
       {
         path: "/form-handle",
         element: <Form />,
+      },
+      {
+        path: "/multi-select",
+        element: <MultiSelect />,
+      },
+      {
+        path: "/auto-complete",
+        element: <Autocomplete />,
+      },
+      {
+        path: "/tree-view",
+        element: <TreeView />,
+      },
+      {
+        path: "/step-up-form",
+        element: <StepupForm />,
       },
       {
         path: "/infinite-scrolling",

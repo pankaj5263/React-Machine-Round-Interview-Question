@@ -9,6 +9,10 @@ const dropDownList = [
   { name: "Toast", path: "toast" },
   { name: "ProgressBar", path: "progress-bar" },
   { name: "Form handle", path: "form-handle" },
+  { name: "Multi Select DropDown", path: "multi-select" },
+  { name: "AutoComplete by dataList", path: "auto-complete" },
+  { name: "Tree View of Folder", path: "tree-view" },
+  { name: "Step up Form", path: "step-up-form" },
   { name: "Infinite-Scroll-page", path: "infinite-scrolling" },
 ];
 
